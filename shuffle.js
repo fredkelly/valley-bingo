@@ -1,6 +1,6 @@
 $(function() {
   var $table = $('table');
-  var $cells = $('td', $table).sort(function() { return 0.5 - Math.random() });;
+  var $cells = $('td', $table).sort(function() { return 0.5 - Math.random() });
 
   $cells
     .each(function(i, c) {
