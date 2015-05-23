@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  font: 16px/1.5 'Francois One', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1 span {
+  text-decoration: line-through;
+  color: red;
+}
+
+a, a:link, a:active, a:hover {
+  color: #ee6650;
+  text-decoration: none;
+  border-bottom: 2px solid #ddd;
+}
+
+#container {
+  width: 50em;
+  margin: 0 auto;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+  font-size: 1.2em;
+  position: relative;
+}
+
+table:before {
+  content: 'Scorecard';
+  display: block;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 1.75em;
+  left: -3.5em;
+  text-transform: uppercase;
+  color: #ccc;
+}
+
+table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  height: 5em;
+  width: 25%;
+  overflow: hidden;
+}
+
+table td:hover {
+  transform: scale(1.2)
+}
+
+table td.called {
+  text-decoration: line-through;
+  color: red;
+}
+
+p {
+  color: #777;
+}
