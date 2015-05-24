@@ -51,13 +51,17 @@ table td {
   overflow: hidden;
 }
 
-table td:hover {
+table td:not(.winner):hover {
   transform: scale(1.2)
 }
 
 table td.called {
   text-decoration: line-through;
   color: red;
+}
+
+table td.winner {
+  background-color: rgba(255, 0, 0, 0.25);
 }
 
 p {
