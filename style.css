@@ -67,3 +67,10 @@ table td.winner {
 p {
   color: #777;
 }
+
+#fork-me {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
